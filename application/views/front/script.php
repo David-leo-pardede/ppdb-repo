@@ -7,7 +7,7 @@
         <script src="<?= base_url('assets/templates/front/');?>js/scrollspy.min.js"></script>
         <!-- <script type="text/javascript" src="//cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/r-2.2.2/datatables.min.js"></script> -->
         <!-- custom js -->
-        <script src="js/custom.js?v=1.1"></script>
+        <script src="<?= base_url('assets/templates/front/');?>js/custom.js?v=1.1"></script>
         <!-- Start of kip-kuliah Zendesk Widget script -->
         <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=23d014a9-7387-45c1-9931-60202f091520"> </script>
         <!-- End of kip-kuliah Zendesk Widget script -->
