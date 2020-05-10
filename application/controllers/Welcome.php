@@ -5,7 +5,8 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('front/meta');
+		$data['title'] = 'PPDB';
+		$this->load->view('front/meta', $data);
 		$this->load->view('front/header');
 		$this->load->view('front/content');
 		$this->load->view('front/footer');
