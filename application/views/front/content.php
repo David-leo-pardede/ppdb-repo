@@ -1,67 +1,9 @@
 
-<!DOCTYPE html>
-<html lang="id">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>Kartu Indonesia Pintar Kuliah
-        </title>
-        <link rel="icon" type="image/ico" href="img/logo.png">
-        <!-- Fonts -->
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-        <!-- Styles -->
-        <link href="css/styleLanding.css?v=1.1" rel="stylesheet">
-        <link href="css/materialdesignicons.min.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/r-2.2.2/datatables.min.css"/>
-            </head>
-    <body>
-        <!--Navbar Start-->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
-            <div class="container-fluid">
-                <!-- LOGO -->
-                <a class="logo text-uppercase" href="/">
-                    <img src="img/logo.png" alt="" class="logo-light" height="60" />
-                    <img src="img/logo.png" alt="" class="logo-dark" height="60" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="mdi mdi-menu">
-                    </i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
-    <li class="nav-item active">
-        <a href="#home" class="nav-link">Beranda
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="#jadwal" class="nav-link">Jadwal
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="#berita" class="nav-link">Berita
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="#profil" class="nav-link">Profil Perguruan Tinggi
-        </a>
-    </li>
-    <li class="nav-item">
-        <a href="#kontak" class="nav-link">Kontak Kami
-        </a>
-    </li> 
-</ul>
-                                        <button onclick="window.location.href = 'siswa/auth/login';" class="btn btn-info navbar-btn">Login Siswa
-                    </button>
-                                    </div>
-            </div>
-        </nav>
-        <!-- Navbar End -->
+
 
         <!-- Content start -->
         <!-- home start -->
-<section class="bg-home bg-hexa" id="home">
+        <section class="bg-home bg-hexa" id="home">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
@@ -88,9 +30,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/dhTN5EAi9Irz2lc8kLsxtUm1HobFR0_tgl20200227000701.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/dhTN5EAi9Irz2lc8kLsxtUm1HobFR0_tgl20200227000701.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -115,9 +57,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/9E1Dcgm0KkdiUQyJG37wqhCMosTPbu_tgl20200227000725.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/9E1Dcgm0KkdiUQyJG37wqhCMosTPbu_tgl20200227000725.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -142,9 +84,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/yJUINulhqtOgGxozKfBbFAncw9054j_tgl20200227000800.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/yJUINulhqtOgGxozKfBbFAncw9054j_tgl20200227000800.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -169,9 +111,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/EsjdG0orbiaQTReJS8gOnxf24HNmkq_tgl20200227000813.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/EsjdG0orbiaQTReJS8gOnxf24HNmkq_tgl20200227000813.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -196,9 +138,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/Os0LGgkB3DwIlMqytTdPfeNv1cxio8_tgl20200228125607.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/Os0LGgkB3DwIlMqytTdPfeNv1cxio8_tgl20200228125607.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -223,9 +165,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/fS4sOT9QMueGED0UbwkndatCijKLq2_tgl20200229085723.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/fS4sOT9QMueGED0UbwkndatCijKLq2_tgl20200229085723.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -250,9 +192,9 @@
                                     </div>
                                     <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-7 order-first-" style="margin: 0 auto;">
                                         <div class="home-img position-relative"> 
-                                            <img src="uploads/informasi/M5TRiFNAs2r0EJ7CwqnaUb48mO3uhc_tgl20200229091123.png" alt="" class="home-first-img">
-                                            <!-- <img src="img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
-                                            <!--<img src="img/kartu-kipk.png" alt="" class="home-third-img">-->
+                                            <img src="<?= base_url('assets/templates/front/');?>uploads/informasi/M5TRiFNAs2r0EJ7CwqnaUb48mO3uhc_tgl20200229091123.png" alt="" class="home-first-img">
+                                            <!-- <img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-second-img mx-auto d-block"> -->
+                                            <!--<img src="<?= base_url('assets/templates/front/');?>img/kartu-kipk.png" alt="" class="home-third-img">-->
                                         </div>
                                     </div>
                                 </div>
@@ -282,14 +224,14 @@
             <div class="col-md-4 offset-lg-2 offset-md-2">
                 <div class="client-images">
                     <a href="siswa/auth/login">
-                        <img src="img/ICO3.svg" alt="logo-img" class="mx-auto img-fluid d-block">
+                        <img src="<?= base_url('assets/templates/front/');?>img/ICO3.svg" alt="logo-img" class="mx-auto img-fluid d-block">
                     </a> 
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="client-images">
                     <a href="/panduan">
-                        <img src="img/ICO4.svg" alt="logo-img" class="mx-auto img-fluid d-block">
+                        <img src="<?= base_url('assets/templates/front/');?>img/ICO4.svg" alt="logo-img" class="mx-auto img-fluid d-block">
                     </a> 
                 </div>
             </div> 
@@ -408,7 +350,7 @@
         <div class="row align-items-center">
             <div class="col-lg-4 offset-1 d-none d-lg-block d-md-none">
                 <div class="feature-img">
-                    <img src="img/news-2.svg" alt="" class="img-fluid mx-auto d-block">
+                    <img src="<?= base_url('assets/templates/front/');?>img/news-2.svg" alt="" class="img-fluid mx-auto d-block">
                 </div>
             </div>
             <div class="col-lg-7">
@@ -451,7 +393,7 @@
 <!-- available demos end -->
 <section class="section pb-0 bg-gradient-1" id="profil">
     <div class="bg-shape">
-        <img src="img/bg-shape-light.png" alt="" class="img-fluid mx-auto d-block">
+        <img src="<?= base_url('assets/templates/front/');?>img/bg-shape-light.png" alt="" class="img-fluid mx-auto d-block">
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -544,158 +486,3 @@
             <!-- end container-fluid -->
         </section>
         <!-- cta end -->
-        <!-- footer start -->
-        <footer class="bg-dark footer">
-            <div class="container-fluid"> 
-                <!-- end row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="float-left pull-none">
-                            <p class="text-white-50">2020 &copy; Kartu Indonesia Pintar Kuliah oleh
-                                <a href="http://kemdikbud.go.id" target="_blank" class="text-white-50">Kemdikbud
-                                </a> 
-                            </p>
-                        </div>
-                        <div class="float-right pull-none">
-                            
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- container-fluid -->
-        </footer>
-        <!-- footer end -->
-        <!-- Back to top -->    
-        <a href="#" class="back-to-top" id="back-to-top"> 
-            <i class="mdi mdi-chevron-up"> 
-            </i> 
-        </a>
-        <!-- javascript -->
-        <script src="js/jquery.min.js">
-        </script>
-        <script src="js/bootstrap.bundle.min.js">
-        </script>
-        <script src="js/jquery.easing.min.js">
-        </script>
-        <script src="js/scrollspy.min.js">
-        </script>
-        <script type="text/javascript" src="//cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/r-2.2.2/datatables.min.js">
-        </script>
-        <!-- custom js -->
-        <script src="js/custom.js?v=1.1">
-        </script>
-        <!-- Start of kip-kuliah Zendesk Widget script -->
-        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=23d014a9-7387-45c1-9931-60202f091520"> </script>
-        <!-- End of kip-kuliah Zendesk Widget script -->
-        <script>
-    $(document).ready(function (){
-        $(document).on('click', '#getInformasi', function(e){
-            e.preventDefault();
-            var url = $(this).data('url');
-            $('.informasi-modal').html('');
-            $('#modal-loader').show();
-            $.ajax({
-                url: url,
-                type: 'GET',
-                dataType: 'html'
-            })
-            .done(function(data){
-                // console.log(data);  
-                $('.informasi-modal').html('');
-                $('.informasi-modal').html(data);
-                // load response 
-                $('#modal-loader').hide();
-                // hide ajax loader   
-                })
-            .fail(function(){
-                $('#modal-loader').hide();
-            });
-        });
-
-        var table = $('#table-pt').DataTable({
-            "responsive": true,
-            "columnDefs": [
-                {
-                  "searchable": false,
-                  "orderable": false,
-                  "targets": "nosort"
-                },
-                {
-                  "targets": 3,
-                  "className": "text-center pr-1",
-                },
-                {
-                  "targets": 4,
-                  "className": "text-center pr-1",
-                }
-            ],
-            "order": [[ 1, 'asc' ]],
-            "processing": true,
-            "serverSide": true,
-            "searchDelay": 1000,
-            "ajax":{
-                "url": "prodijson",
-                "dataType": "json",
-                "type": "POST",
-                "data":{
-                    _token: "KNb1CzFIlANpmID7vQ5bBgu4NaV7Ab8q3mdCyBJg"
-                }
-            },
-            "columns": [
-                {
-                  "data": "no" },
-                {
-                  "data": "nama_pt" },
-                {
-                  "data": "nama_prodi" },
-                {
-                  "data": "jenjang" },
-                {
-                  "data": "akreditasi_prodi" },
-                {
-                  "data": "options" }
-            ]
-        });
-
-        var debounce = new $.fn.dataTable.Debounce(table);
-    });
-
-    $.fn.dataTable.Debounce = function ( table, options ) {
-        var tableId = table.settings()[0].sTableId;
-        $('.dataTables_filter input[aria-controls="' + tableId + '"]') // select the correct input field
-            .unbind() // Unbind previous default bindings
-            .bind('input', (delay(function (e) { // Bind our desired behavior
-                table.search($(this).val()).draw();
-                return;
-            }, 1000))); // Set delay in milliseconds
-    }
-    
-    function delay(callback, ms) {
-        var timer = 0;
-        return function () {
-            var context = this, args = arguments;
-            clearTimeout(timer);
-            timer = setTimeout(function () {
-                callback.apply(context, args);
-            }, ms || 0);
-        };
-    }
-
-    function getProfil(prodiId, pt) {
-        $.ajax({
-            url: "/prodi/" + prodiId + "-" + pt,
-            type: "GET",
-            dataType: "html",
-            success: function (data) {
-                $("#tempat-profil").html(data);
-                $('html, body').animate({
-                    scrollTop: $('#tempat-profil').offset().top 
-                }, 1500);
-            }
-        });
-    }
-</script>
-    </body>
-</html>
